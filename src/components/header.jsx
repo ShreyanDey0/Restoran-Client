@@ -4,7 +4,6 @@ function Header() {
     let url="/";
     const location = useLocation();
     return (
-        <>
         <div className="container-xxl position-relative p-0">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href={url} className="navbar-brand p-0">
@@ -33,21 +32,6 @@ function Header() {
                 </div>
             </nav>
         </div>
-
-        {/* Back to top */}
-        <Link 
-            to="#" 
-            onClick={() => {
-                window.scroll({
-                    top: 0,
-                    left: 0,
-                    behavior: "smooth",
-                });
-            }}
-            className={"btn btn-lg btn-primary btn-lg-square back-to-top"}>
-                <i className={"bi bi-arrow-up"} style={{marginLeft : "-2.5px"}}></i>
-        </Link>
-        </>
     )
 }
 

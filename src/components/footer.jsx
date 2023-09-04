@@ -63,6 +63,18 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <Link 
+                to="#" 
+                onClick={() => {
+                    window.scroll({
+                        top: 0,
+                        left: 0,
+                        behavior: "smooth",
+                    });
+                }}
+                className={"btn btn-lg btn-primary btn-lg-square back-to-top"}>
+                    <i className={"bi bi-arrow-up"} style={{marginLeft : "-2.5px"}}></i>
+            </Link>
         </div>  
       </>
     )
