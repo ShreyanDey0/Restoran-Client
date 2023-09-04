@@ -42,8 +42,8 @@ function Home() {
   return (
     <>
         {/* Hero Section */}
-        <div className="container-xxl py-5 bg-dark hero-header mb-5">
-            <div className="container my-5 py-5">
+        <div className="bg-dark hero-header mb-5">
+            <div className="container py-5">
                 <div className="row align-items-center g-5">
                     <div className="col-lg-6 text-center text-lg-start">
                         <h1 className="display-3 text-white animated slideInLeft">Enjoy Our<br/>Delicious Meal</h1>
@@ -311,7 +311,7 @@ function Home() {
         {/* Menu Section Ends */}
 
         {/* Contact-us Section */}
-        <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div className="py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div className="row g-0">
                 <div className="col-md-6">
                     <div className="video">

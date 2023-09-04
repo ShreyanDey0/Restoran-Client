@@ -18,7 +18,7 @@ function ContactUs() {
             <NavHero title="Contact-Us"/>
 
             {/* Contact-us Section */}
-            <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div className="py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="row g-0">
                     <div className="col-md-6">
                         <div className="video">
